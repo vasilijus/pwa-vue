@@ -41,3 +41,26 @@ https://app-manifest.firebaseapp.com/
 ```
 workbox wizard 
 ```
+
+### Vue router
+```
+It is easy to integrate Vue Router in our Vue application.
+1. Install the plug-in.
+$npm install vue-router
+2. Add VueRouter in main.js.
+...
+import VueRouter from 'vue-router'
+...
+Vue.use(VueRouter);
+3. Create routes in a new routes.js file.
+import HelloWorld from './components/HelloWorld.vue'
+export const routes = [
+  {path: ", component: HelloWorld}
+];
+4. Create a VueRouter instance.
+const router = new VueRouter({routes});
+5. Add VueRouter to Vue instance.
+const app = new Vue({
+  router
+}).$mount('#app')
+```
