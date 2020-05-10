@@ -37,3 +37,7 @@ npm install -g firebase-tools
 https://app-manifest.firebaseapp.com/
 ```
 
+### Service worker 
+```
+workbox wizard 
+```
