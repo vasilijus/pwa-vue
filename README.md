@@ -32,3 +32,8 @@ vue add vutify
 npm install -g firebase-tools
 ```
 
+### Generated manifest
+```
+https://app-manifest.firebaseapp.com/
+```
+
